@@ -27,13 +27,15 @@ O projeto segue um fluxo de dados **ETL (Extract, Transform, Load)** simplificad
 
 ### Interface Mobile e Fluxo de Lógica
 <p align="center">
-  <img src="NOME_DA_SUA_FOTO_DO_CELULAR.png" width="45%" />
-  <img src="NOME_DA_SUA_FOTO_DO_FLUXO_PC.png" width="45%" />
+  <img src="WhatsApp Image 2026-03-29 at 16.11.07.jpeg" width="45%" />
+  <img src="<img width="235" height="338" alt="Captura de tela 2026-03-29 162159" src="https://github.com/user-attachments/assets/63c512d7-3a24-4bd9-a6e1-9c0f8834bd0c" />
+" width="45%" />
 </p>
 
 ### Dashboard Final e Monitoramento de Metas
 <p align="center">
-  <img src="NOME_DA_SUA_FOTO_DO_DASHBOARD.png" width="90%" />
+  <img src="N<img width="1315" height="752" alt="Captura de tela 2026-03-29 172311" src="https://github.com/user-attachments/assets/a8b8110c-f438-459a-afb5-9b956ac7029c" />
+" width="90%" />
 </p>
 
 ---
