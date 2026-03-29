@@ -34,7 +34,7 @@ O projeto segue um fluxo de dados **ETL (Extract, Transform, Load)** simplificad
 
 ### Dashboard Final e Monitoramento de Metas
 <p align="center">
-  <img src="N<img width="1315" height="752" alt="Captura de tela 2026-03-29 172311" src="https://github.com/user-attachments/assets/a8b8110c-f438-459a-afb5-9b956ac7029c" />
+  <img src="N<img width="1315" height="752" alt="Captura de tela 2026-03-29 172311.png" src="https://github.com/user-attachments/assets/a8b8110c-f438-459a-afb5-9b956ac7029c" />
 " width="90%" />
 </p>
 
