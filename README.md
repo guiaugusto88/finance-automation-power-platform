@@ -23,7 +23,33 @@ O projeto segue um fluxo de dados **ETL (Extract, Transform, Load)** simplificad
 
 ---
 
+## ⚙️ Lógica da Automação (Power Automate)
+
+Fluxo automatizado responsável por registrar e processar os dados financeiros:
+
+1. Gatilho manual via aplicativo mobile
+2. Coleta de dados inseridos pelo usuário (valor, categoria, data)
+3. Validação dos campos obrigatórios
+4. Inserção automática em tabela no Excel Online
+5. Atualização dos dados para consumo no Power BI
+
+### Estrutura do Fluxo
+
+Trigger: "Disparar um fluxo manualmente"
+↓
+Ação: "Adicionar uma linha em uma tabela (Excel Online)"
+↓
+Conexão com OneDrive for Business
+
 ---
+
+## 🎯 Resultados e Impacto
+
+- Redução significativa do esforço manual no registro financeiro
+- Padronização dos dados para análise
+- Atualização automática de indicadores (KPIs)
+- Visibilidade em tempo real do progresso financeiro
+- Base pronta para escalabilidade e integração com outras fontes
 
 ## 📈 Demonstração Visual
 
@@ -40,12 +66,39 @@ O projeto segue um fluxo de dados **ETL (Extract, Transform, Load)** simplificad
 
 ---
 
+## 🗃️ Estrutura de Dados
 
-## 🧠 Destaques Técnicos
+Os dados são armazenados em uma tabela estruturada no Excel Online com o seguinte schema:
+
+| Campo        | Tipo        | Descrição                          |
+|-------------|------------|------------------------------------|
+| valor       | Decimal     | Valor da transação financeira     |
+| categoria   | Texto       | Tipo (Alimento, Investimento...)  |
+| data        | Data        | Data do registro                  |
+| quantidade  | Inteiro     | Quantidade (opcional)             |
+| preco_unitario | Decimal  | Valor unitário (opcional)         |
+
+A estrutura foi projetada para permitir integração direta com o Power BI e modelagem analítica.
+
+
+## 📊 Destaques Técnicos
 
 ### Modelagem com DAX
-Para o monitoramento de metas, foram criadas medidas personalizadas para garantir a precisão dos KPIs:
 
-- **Total Investido:**
-  ```dax
-  Total Investido = CALCULATE(SUM(Tabela1[valor]), Tabela1[categoria] = "investimento")
+Criação de medidas para análise de performance financeira:
+
+#### Total Investido
+```DAX
+Total Investido = 
+CALCULATE(
+    SUM(Tabela[Valor]),
+    Tabela[Categoria] = "Investimento"
+)
+
+## 🚀 Próximos Passos
+
+- Integração com APIs bancárias
+- Armazenamento em banco de dados relacional (SQL)
+- Deploy de dashboard interativo com autenticação
+- Monitoramento de erros e logs da automação
+- Integração com Power Apps para interface mais robusta
