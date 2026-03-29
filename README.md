@@ -28,7 +28,7 @@ O projeto segue um fluxo de dados **ETL (Extract, Transform, Load)** simplificad
 ### Interface Mobile e Fluxo de Lógica
 <p align="center">
   <img src="WhatsApp Image 2026-03-29 at 16.11.07.jpeg" width="45%" />
-  <img src="<img width="235" height="338" alt="Captura de tela 2026-03-29 162159" src="https://github.com/user-attachments/assets/63c512d7-3a24-4bd9-a6e1-9c0f8834bd0c" />
+  <img src="<img width="235" height="338" alt="Captura de tela 2026-03-29 162159.png" />
 " width="45%" />
 </p>
 
